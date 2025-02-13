@@ -1,11 +1,12 @@
 .card {
     height: 340px;
-    width: 33%;
+    width: 100%;
     position: relative;
     aspect-ratio: 1/1;
     border-radius: 10px;
     color: white !important;
     background: linear-gradient(180deg, hsla(0deg, 0%, 100%, 0), rgba(0, 0, 0, 0.5));
+
 }
 
 .card_title {
@@ -30,5 +31,5 @@
 }
 
 .card:hover .card_img {
-    transform: scale(1.1);
+    transform: scale(1);
 }

@@ -13,6 +13,9 @@ function Home () {
             <Banner />
             <div className='main-content'>
                 <Card />
+                <Card />
+                <Card />
+                <Card />
             </div>
 
         </>
