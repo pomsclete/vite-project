@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+main {
+    padding: 10px 30px;
+}
+
 body {
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
     font-family: "Poppins", sans-serif;
+
 }

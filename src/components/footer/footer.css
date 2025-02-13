@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgb(235, 142, 75);
+}
+
+footer img {
+    width: 7rem
+}
+
+footer p {
+    font-size: 14px;
+    color: black !important;
+}

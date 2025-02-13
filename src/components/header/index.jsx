@@ -7,8 +7,8 @@ function Header () {
             <img src={LOGO} alt="logo" />
             <nav>
                 <ul>
-                    <li><a href="/">Accueil</a></li>
-                    <li><a href="/about">A Propos</a></li>
+                    <li className="active">Accueil</li>
+                    <li>A Propos</li>
                 </ul>
             </nav>
         </header>
