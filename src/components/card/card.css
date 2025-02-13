@@ -1,5 +1,6 @@
 .card {
     height: 340px;
+    width: 33%;
     position: relative;
     aspect-ratio: 1/1;
     border-radius: 10px;
