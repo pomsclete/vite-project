@@ -3,6 +3,7 @@ import Banner from "../../components/banner/index"
 import Card from "../../components/card/index"
 import "./home.css"
 import DataJson from "../../datas/logements.json"
+import IMG_BANNER from "../../assets/images/source1.svg"
 function Home () {
 
     const [data, setData] = useState(null)
@@ -14,7 +15,7 @@ function Home () {
 
     return (
         <>
-            <Banner />
+            <Banner img={IMG_BANNER} content="Chez vous, partout et ailleurs" />
             <div className='main-content'>
                 {
                     data && data.map((item, index) => (
