@@ -1,0 +1,16 @@
+.notFound {
+    display: flex;
+    flex-direction: culumns;
+    align-items: center;
+    color: rgb(235, 142, 75);
+    ;
+
+}
+
+.notFound_title {
+    font-weight: 700;
+}
+
+.notFound_info {}
+
+.notFound_link {}
